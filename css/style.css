@@ -24,22 +24,20 @@ body{
 /* Header */
 
 /*  Class Main countainer proprietes */
+
+.main-header{
+    background-color: lightblue;
+    min-height: 100px;
+}
+
+
 .mc{
     
     align-items: center;
     min-height: 100px;
 }
 
-.main-header{
-    background-color: aliceblue;
-    min-height: 100px;
-}
 
-.footer-header{
-    background-color: blue;
-    min-height: 600px;
-}
-   
 .small{
     width: 20%;
 }
@@ -54,4 +52,25 @@ body{
     background-color: orange;
     border: 2px dotted black;
     min-height: 50px;
+}
+
+/* Class Footer countainer proprietes */
+
+.footer-header{
+    background-color: blue;
+    min-height: 600px;
+}
+
+
+.fc{
+    align-items: center;
+    min-height: 600px;
+}
+
+.box-footer{
+    background-color: pink;
+    border: 2px dotted black;
+    min-height: 400px;
+    width: 100%;
+}
 }
