@@ -17,10 +17,18 @@ body{
     max-width: 1080px;
     margin:0 auto;
     display:flex;
-    align-items: center;
 }
 
+
+
 /* Header */
+
+/*  Class Main countainer proprietes */
+.mc{
+    
+    align-items: center;
+    min-height: 100px;
+}
 
 .main-header{
     background-color: aliceblue;
