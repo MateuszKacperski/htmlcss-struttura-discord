@@ -4,3 +4,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+
+body{
+    background-color: white;
+}
+
+/* Utils */
+
+.countainer{
+    max-width: 1080px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+}
+
+/* Header */
+
+.main-header{
+    background-color: aliceblue;
+    min-height: 100px;
+}
+
+.footer-header{
+    background-color: blue;
+    min-height: 600px;
+}
+   
+.small{
+    width: 20%;
+}
+
+
+.big{
+    width: 60%;
+}
+
+
+.box-header{
+    background-color: orange;
+    border: 2px dotted black;
+    min-height: 50px;
+}
