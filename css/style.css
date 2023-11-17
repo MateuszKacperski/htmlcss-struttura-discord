@@ -110,9 +110,16 @@ body{
 /*main footer countainer*/
 
 
+.mfc{
+    align-items: center;
+    min-height: 800px;
+}
+
 .main-footer-box{
     background-color: #228B22;
+    border: 2px dotted black;
     min-height: 600px;
+    flex-basis: 100%;
 }
 
 .main-footer{   
