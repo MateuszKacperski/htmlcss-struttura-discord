@@ -168,11 +168,12 @@ body{
     background-color: #7FFFD4;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
 .box{
-    min-width:70px;
+    flex-basis:60px;
     background-color: orange;
-    
+    min-height: 15px;
 }
