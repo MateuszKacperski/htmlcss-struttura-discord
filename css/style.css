@@ -141,18 +141,34 @@ body{
     margin-bottom: 2px;
 }
 
-.footer-big-box{
-    border: 2px dotted black;
-    min-height: 300px;
-    width: 40%;
+
+.fmcb{
+        align-items: flex-start;
+        min-height: 600px;
+        background-color: #23272A;
+}
+
+.footer-box{
+    min-height: 400px;
+    flex-basis: 40%;
     background-color: #F08080;
+    border: 2px dotted black;
+    margin-top: 10px;
+}
+
+.footer-big-box{
+    min-height: 400px;
+    flex-basis: 60%;
+    background-color:#20B2AA;
+    border: 2px dotted #20B2AA;
+    display:flex;
+    margin-top: 10px;
 }
     
 .footer-small-box{
+    min-height: 400px;
+    flex-basis: 25%;
     border: 2px dotted white;
-    min-height: 300px;
-    width: 15%;
-    background-color: #20B2AA;
 }
 
 
