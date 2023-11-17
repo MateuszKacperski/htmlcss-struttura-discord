@@ -23,18 +23,18 @@ body{
 
 /* Header */
 
-/*  Class Main countainer proprietes */
+/*  Class header-main countainer proprietes */
 
-.main-header{
+.header-main{
     background-color: #ADD8E6;
-    min-height: 100px;
+    min-height: 25px;
 }
 
-
-.mc{
+/*main countainer header*/
+.hmc{
     
     align-items: center;
-    min-height: 100px;
+    min-height: 50px;
 }
 
 
@@ -51,26 +51,26 @@ body{
 .box-header{
     background-color: #DAA520;
     border: 2px dotted black;
-    min-height: 50px;
+    min-height: 25px;
 }
 
 /* Class Footer countainer proprietes */
 
-.footer-header{
+.header-footer{
     background-color: #00008B;
-    min-height: 600px;
+    min-height: 300px;
 }
 
 /*footer countainer */
 .fc{
     align-items: center;
-    min-height: 600px;
+    min-height: 300px;
 }
 
 .box-footer{
     background-color: #EE82EE;
     border: 2px dotted black;
-    min-height: 400px;
+    min-height: 200px;
     width: 100%;
 }
 
@@ -79,7 +79,7 @@ body{
 /*main countainer */
 .mc{
     align-items: center;
-    min-height: 800px;
+    min-height: 400px;
 }
 
 /* small box */
@@ -97,6 +97,26 @@ body{
 
 .main-box{
     border: 2px dotted black;
-    min-height: 600px;
+    min-height: 300px;
 
+}
+
+
+.main-secondary{
+    background-color: #D3D3D3;
+    min-height: 400px;
+}
+
+/*main footer countainer*/
+
+/*main countainer footer*/
+
+.main-footer-box{
+    background-color: #228B22;
+    min-height: 600px;
+}
+
+.footer-main{   
+    background-color: #D3D3D3;
+    min-height: 800px;
 }
