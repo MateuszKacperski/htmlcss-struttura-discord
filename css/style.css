@@ -109,14 +109,38 @@ body{
 
 /*main footer countainer*/
 
-/*main countainer footer*/
 
 .main-footer-box{
     background-color: #228B22;
     min-height: 600px;
 }
 
-.footer-main{   
+.main-footer{   
     background-color: #D3D3D3;
     min-height: 800px;
 }
+
+
+/* Footer */ 
+
+
+.footer-main{
+    background-color: #23272A;
+    min-height: 400px;
+    margin-bottom: 2px;
+}
+
+.footer-big-box{
+    border: 2px dotted black;
+    min-height: 300px;
+    width: 40%;
+    background-color: #F08080;
+}
+    
+.footer-small-box{
+    border: 2px dotted white;
+    min-height: 300px;
+    width: 15%;
+    background-color: #20B2AA;
+}
+
