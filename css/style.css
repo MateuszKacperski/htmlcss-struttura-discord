@@ -124,6 +124,10 @@ body{
 /* Footer */ 
 
 
+
+
+
+/* footer main */
 .footer-main{
     background-color: #23272A;
     min-height: 400px;
@@ -144,3 +148,31 @@ body{
     background-color: #20B2AA;
 }
 
+
+
+/* end footer */
+
+.e-footer{
+    background-color: #23272A;
+    min-height: 25px;
+}
+
+.efc{
+    
+    align-items: flex-end;
+    min-height: 50px;
+}
+.box-end-footer{
+    min-height: 40px;
+    width: 100%;
+    background-color: #7FFFD4;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box{
+    min-width:70px;
+    background-color: orange;
+    
+}
